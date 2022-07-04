@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- TODO change to FLyOneO branding aidan-->
+    <meta charset="utf-8" />
+    <title>FlyOneO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FlyOneO's services website" />
+    <meta name="keywords" content="machine learning, automation, marketing, data" />
+    <meta content="website" name="FlyOneO" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/flyoneo.ico"  />
+
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="20">
+
+    <!-- Loader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom " id="navbar">
+        <div class="container">
+            <!-- LOGO -->
+            <a class="navbar-brand logo" href="index.html">
+                <img src="images/flyoneobee.png" alt="" class="logo-dark" height="60em" width="100em" />
+                <img src="images/flyoneowhitelogo.png" alt="" class="logo-light" height="60em" width="100em" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="" data-feather="menu"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto navbar-center" id="navbar-navlist">
+                    <li class="nav-item">
+                        <a href=index.html class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link">Machine Learning</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=team.html class="nav-link">Team</a>
+                    </li>
+
+
+                </ul>
+                <a href="#contact" class="btn btn-sm rounded-pill nav-btn ms-lg-3">Contact Us</a>
+            </div>
+        </div>
+        <!-- end container -->
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <section class="hero-1 bg-center bg-primary position-relative" style="background-image: url(images/hero-1-bg.png);"
+        id="home">
+        <div class="container">
+            <div class="row align-items-center hero-content">
+                <div class="col text-center">
+                    <h1 class="text-white display-4 font-weight-semibold mb-4 hero-1-title">Got a Problem? <br> We'll
+                        Automate the Solution.</h1>
+                    <p class="text-white-70 mb-4  mb-lg-5">Customized ML solutions at sane prices to take your
+                        marketing, operations, and customer service into the future.</p>
+                    <a href="#pricing" class="btn btn-lg btn-light rounded-pill me-2">Get Started</a>
+
+                </div>
+                <img src="images/flyoneoautomationlogo.webp" alt="" class="w-100 img-md-responsive"
+                    style="max-width: 60%" />
+            </div>
+            <!-- end col -->
+        </div><!-- end row -->
+
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="watchvideomodal" data-keyboard="false" tabindex="-1"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
+                <div class="modal-content hero-modal-0 bg-transparent">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <video id="VisaChipCardVideo" class="w-100" controls="">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        <!--Browser does not support <video> tag -->
+                    </video>
+                </div>
+            </div>
+        </div>
+        <!-- end modal -->
+        </div>
+        <!-- end container -->
+        <div class="hero-bottom-shape">
+            <img src="images/hero-1-bottom-shape.png" alt="" class="img-fluid d-block mx-auto" />
+        </div>
+        <!-- end hero shape -->
+    </section>
+    <!-- Hero End -->
+
+    <!-- Services start -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-7 text-center">
+                    <h2 class="fw-bold">Your startup starts now.
+                    </h2>
+                    <p class="text-muted">End-to-end API integration to make your business smarter <br>(and your life
+                        easier).</p>
+                </div>
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="service-box text-center px-4 py-5 position-relative mb-4">
+                        <div class="service-box-content p-4">
+                            <div class="icon-mono service-icon avatar-md mx-auto mb-4">
+                                <i class="" data-feather="box"></i>
+                            </div>
+                            <h4 class="mb-3 font-size-22">Automation</h4>
+                            <p class="text-muted mb-0">Custom automation algorithms for calls, emails, and texts.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+
+                <div class="col-lg-4">
+                    <div class="service-box text-center px-4 py-5 position-relative mb-4 active">
+                        <div class="service-box-content p-4">
+                            <div class="icon-mono service-icon avatar-md mx-auto mb-4">
+                                <i class="" data-feather="layers"></i>
+                            </div>
+                            <h4 class="mb-3 font-size-22">Scraping</h4>
+                            <p class="text-muted mb-0">Data extraction for any public website with flexible scaling.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+
+                <div class="col-lg-4">
+                    <div class="service-box text-center px-4 py-5 position-relative mb-4">
+                        <div class="service-box-content p-4">
+                            <div class="icon-mono service-icon avatar-md mx-auto mb-4">
+                                <i class="" data-feather="server"></i>
+                            </div>
+                            <h4 class="mb-3 font-size-22">Data Insights</h4>
+                            <p class="text-muted mb-0">Data science techniques to generate meaningful analysis for your
+                                data.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+
+    </section>
+    <!-- Services end -->
+
+    <!-- Features start -->
+    <section class="section bg-light" id="features">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-7 text-center">
+                    <h2 class="fw-bold">Let's get serious about your data.</h2>
+                    <p class="text-muted">Level up your infastructure and refine your workflow <br> according to the
+                        latest industry standards .</p>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-5 order-2 order-md-1 mt-md-0 mt-5">
+                    <h2 class="mb-4">Big results for small budgets</h2>
+                    <p class="text-muted mb-5">We work with smaller business to offer an affordable entry into machine
+                        learning optimization. Ask about how you can integrate one of our ML layers into your stack.</p>
+
+                </div>
+                <!-- end col -->
+                <div class="col-md-6 ms-md-auto order-1 order-md-2">
+                    <div class="position-relative">
+                        <div class="ms-5 features-img">
+                            <img src="images/Top-10-AI-jobs-that-will-give-an-edge-to-your-careers-in-2022-600x333-2.jpeg"
+                                alt="" class="img-fluid d-block mx-auto rounded shadow" />
+                        </div>
+                        <img src="images/dot-img.png" alt="" class="dot-img-left" />
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+            <div class="row align-items-center section pb-0">
+                <div class="col-md-6">
+                    <div class="position-relative mb-md-0 mb-5">
+                        <div class="me-5 features-img">
+                            <img src="images/artificial-intelligence-background--abstract-ai-background-with.jpeg"
+                                alt="" class="img-fluid d-block mx-auto rounded shadow" />
+                        </div>
+                        <img src="images/dot-img.png" alt="" class="dot-img-right" />
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-md-5 ms-md-auto">
+                    <h2 class="mb-4">ML-Driven Solutions</h2>
+                    <p class="text-muted mb-5">Reach unfathomable levels of efficiency and automation with machine
+                        learning. We offer marketing automation, consumer analytics, forecasting, natural language processing,
+                        computer vision, and more.</p>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- Features end -->
+
+    <!-- Pricing start -->
+    <section class="section" id="pricing">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-7 text-center">
+                    <h2 class="fw-bold">Pricing Plan</h2>
+                    <p class="text-muted">Choose a scale that fits your needs and we'll do the rest.</p>
+                </div>
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center mb-4 pricing-tab">
+                        <ul class="nav nav-pills rounded-pill justify-content-center d-inline-block shadow-sm"
+                            id="pricingpills-tab" role="tablist">
+                            <li class="nav-item d-inline-block">
+                                <a class="nav-link rounded-pill active" id="pills-monthly-tab" data-bs-toggle="pill"
+                                    href="#pills-monthly" role="tab" aria-controls="pills-monthly"
+                                    aria-selected="true">Text</a>
+                            </li>
+                            <li class="nav-item d-inline-block">
+                                <a class="nav-link rounded-pill" id="pills-yearly-tab" data-bs-toggle="pill"
+                                    href="#pills-yearly" role="tab" aria-controls="pills-yearly"
+                                    aria-selected="false">Email</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="pricingpills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-monthly" role="tabpanel"
+                            aria-labelledby="pills-monthly-tab">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div
+                                        class="card plan-card mt-4 rounded text-center border-0 shadow overflow-hidden">
+                                        <div class="card-body px-4 py-5">
+                                            <!-- <div class="icon-mono avatar-md bg-soft-primary text-primary rounded mx-auto mb-5"><i class="icon-lg" data-feather="circle"></i></div> -->
+                                            <div class="icon-mono avatar-md bg-soft-primary rounded mx-auto mb-5 p-7"> 
+                                                <img src="images/smallbrain.png" alt=""
+                                                    class="img-fluid d-block mx-auto" />
+                                            </div>
+                                            <h4 class="text-uppercase mb-4 pb-1">Basic</h4>
+                                            <p class="text-muted"><span class="fw-bold">$0.0069/text</span>
+                                            </p>
+                                            <p class="text-muted">>10,000 texts</p>
+                                            <p class="text-dark font-size-16 font-weight-semibold mb-4">$69.00 / Month
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-4">
+                                    <div
+                                        class="card plan-card mt-4 rounded text-center border-0 shadow overflow-hidden">
+                                        <div class="card-body px-4 py-5">
+                                            <!-- <div class="icon-mono avatar-md bg-soft-primary text-primary rounded mx-auto mb-5"><i class="icon-lg" data-feather="square"></i></div> -->
+                                            <div class="icon-mono avatar-md bg-soft-primary rounded mx-auto mb-5 p-7">
+                                                <img src="images/midbrain.png" alt=""
+                                                    class="img-fluid d-block mx-auto" />
+                                            </div>
+                                            <h4 class="text-uppercase mb-4 pb-1">Heavy</h4>
+                                            <p class="text-muted"><span class="fw-bold">$0.0059/text</span>
+                                            </p>
+                                            <p class="text-muted">>30,000 texts</p>
+                                            <p class="text-dark font-size-16 font-weight-semibold mb-4">$177.00 / Month
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-4">
+                                    <div
+                                        class="card plan-card mt-4 rounded text-center border-0 shadow overflow-hidden">
+                                        <div class="card-body px-4 py-5">
+                                            <span class="badge badge-primary pricing-badge shadow-lg">Most
+                                                Popular</span>
+                                            <!-- <div class="icon-mono avatar-md bg-soft-primary text-primary rounded mx-auto mb-5"><i class="icon-lg" data-feather="triangle"></i></div> -->
+                                            <div class="icon-mono avatar-md bg-soft-primary rounded mx-auto mb-5 p-7">
+                                                <img src="images/bigbrain.png" alt=""
+                                                    class="img-fluid d-block mx-auto" />
+                                            </div>
+                                            <h4 class="text-uppercase mb-4 pb-1">Massive</h4>
+                                            <p class="text-muted"><span class="fw-bold">$0.0039/text</span>
+                                            </p>
+                                            <p class="text-muted">>50,000 texts</p>
+                                            <p class="text-dark font-size-16 font-weight-semibold mb-4">$195.00 / Month
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                            </div>
+                            <!-- end row -->
+                        </div>
+                        <!-- TODO: change pricing to match the pricing slides -->
+                        <div class="tab-pane fade" id="pills-yearly" role="tabpanel" aria-labelledby="pills-yearly-tab">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div
+                                        class="card plan-card mt-4 rounded text-center border-0 shadow overflow-hidden">
+                                        <div class="card-body px-4 py-5">
+                                            <!-- <div class="icon-mono avatar-md bg-soft-primary text-primary rounded mx-auto mb-5"><i class="icon-lg" data-feather="circle"></i></div> -->
+                                            <div class="icon-mono avatar-md bg-soft-primary rounded mx-auto mb-5 p-7">
+                                                <img src="images/smallbrain.png" alt=""
+                                                    class="img-fluid d-block mx-auto" />
+                                            </div>
+                                            <h4 class="text-uppercase mb-4 pb-1">Basic</h4>
+                                            <p class="text-muted"><span class="fw-bold">$0.0049/email</span>
+                                            </p>
+                                            <p class="text-muted">>10,000 emails</p>
+                                            <p class="text-dark font-size-16 font-weight-semibold mb-4">$49.00 / Month
+                                            </p>
+                                        </div>
+                                        <!-- end cardbody -->
+                                    </div>
+                                    <!-- end card -->
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-4">
+                                    <div
+                                        class="card plan-card mt-4 rounded text-center border-0 shadow overflow-hidden">
+                                        <div class="card-body px-4 py-5">
+                                            <!-- <div class="icon-mono avatar-md bg-soft-primary text-primary rounded mx-auto mb-5"><i class="icon-lg" data-feather="square"></i></div> -->
+                                            <div class="icon-mono avatar-md bg-soft-primary rounded mx-auto mb-5 p-7">
+                                                <img src="images/midbrain.png" alt=""
+                                                    class="img-fluid d-block mx-auto" />
+                                            </div>
+                                            <h4 class="text-uppercase mb-4 pb-1">Heavy</h4>
+                                            <p class="text-muted"><span class="fw-bold">$0.0039/email</span>
+                                            </p>
+                                            <p class="text-muted">>30,000 emails</p>
+                                            <p class="text-dark font-size-16 font-weight-semibold mb-4">$117.00 / Month
+                                            </p>
+                                        </div>
+                                        <!-- end cardbody -->
+                                    </div>
+                                    <!-- end card -->
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-4">
+                                    <div
+                                        class="card plan-card mt-4 rounded text-center border-0 shadow overflow-hidden">
+                                        <div class="card-body px-4 py-5">
+                                            <span class="badge badge-primary pricing-badge shadow-lg">Most
+                                                Popular</span>
+                                            <!-- <div class="icon-mono avatar-md bg-soft-primary text-primary rounded mx-auto mb-5"><i class="icon-lg" data-feather="triangle"></i></div> -->
+                                            <div class="icon-mono avatar-md bg-soft-primary rounded mx-auto mb-5 p-7">
+                                                <img src="images/bigbrain.png" alt=""
+                                                    class="img-fluid d-block mx-auto" />
+                                                    
+                                            </div>
+                                            <h4 class="text-uppercase mb-4 pb-1">Massive</h4>
+                                            <p class="text-muted"><span class="fw-bold">$0.0029/email</span>
+                                            </p>
+                                            <p class="text-muted">>50,000 emails</p>
+                                            <p class="text-dark font-size-16 font-weight-semibold mb-4">$145.00 / Month
+                                            </p>
+                                        </div>
+                                        <!-- end cardbody -->
+                                    </div>
+                                    <!-- end card -->
+                                </div>
+                                <!-- end col -->
+                            </div>
+                        </div>
+                        <!-- end yearly tab pane -->
+                    </div>
+                    <!-- end tab content -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- Pricing end -->
+
+
+
+
+
+
+    <!-- Contact us start -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">Contact Us</h2>
+                    <p class="text-muted mb-5"></p>
+
+                    <div>
+                        <!-- <form method="post" name="myForm" onsubmit="return validateForm()"> TODO: how to integrate-->
+                        <form method="POST" action="https://formspree.io/f/xgedbgqd">
+                            <!-- <textarea   name="body"></textarea> -->
+                            <!-- </textarea><input type="submit" value="Send"> -->
+                            <!-- </form> -->
+
+                            <p id="error-msg"></p>
+                            <div id="simple-msg"></div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-4">
+                                        <label type="email" name="email" for="email"
+                                            class="text-muted form-label">Email</label>
+                                        <input name="from" id="email" type="email" class="form-control"
+                                            placeholder="Your email">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-4 pb-2">
+                                        <label for="comments" class="text-muted form-label">Message</label>
+                                        <textarea name="message" id="comments" rows="4" class="form-control"
+                                            placeholder="Hi! Let's chat about FlyOneO's automation services..."></textarea>
+                                    </div>
+                                    <button type="submit" id="submit" name="Send" class="btn btn-primary">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <!-- end col -->
+
+                <div class="col-lg-5 ms-lg-auto">
+                    <div class="mt-5 mt-lg-0">
+                        <img src="images/contact.png" alt="" class="img-fluid d-block" />
+                        <p class="text-muted mt-5 mb-3"><i class="me-2 text-muted icon icon-xs" data-feather="mail"></i>
+                            flyoneo.ml@gmail.com</p>
+                        <p class="text-muted mb-3"><i class="me-2 text-muted icon icon-xs" data-feather="phone"></i> +1
+                            (415)-942-2253
+                        <p class="text-muted mb-3"><i class="me-2 text-muted icon icon-xs" data-feather="map-pin"></i>
+                            San Francisco, California</p>
+                        <ul class="list-inline pt-4">
+                            <li class="list-inline-item me-3">
+                            <!--   <a href="javascript: void(0);" class="social-icon icon-mono avatar-xs rounded-circle"><i
+                                        class="icon-xs" data-feather="facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item me-3">
+                                <a href="javascript: void(0);" class="social-icon icon-mono avatar-xs rounded-circle"><i
+                                        class="icon-xs" data-feather="twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="javascript: void(0);" class="social-icon icon-mono avatar-xs rounded-circle"><i
+                                        class="icon-xs" data-feather="instagram"></i></a>
+                                        
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- Contact us end -->
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <!-- feather-icons js -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- App Js -->
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
